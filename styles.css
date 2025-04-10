@@ -318,7 +318,7 @@ form select {
 
 .form { /* Form container */
     padding: 0px;
-    max-width: 69%;
+    max-width: 80%;
     margin: 0 auto; /* Centers the form on the page */
     background-color: #f4f4f4; /* Light background color */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
