@@ -27,6 +27,19 @@
         font-size: 1rem; /* Adjust paragraph font size */
     }
 
+    .maps {
+        width: 100%; /* Make map responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+    /* Adjust logo size */
+    .logo {
+        width: 50px; /* Reduce logo size for mobile */
+        height: auto; /* Maintain aspect ratio */
+        top: 10%; /* Adjust position */
+        left: 5%; /* Adjust position */
+    }
+
     /* Adjust navigation links */
     nav .nav-link a {
         font-size: 1rem; /* Reduce font size for nav links */
