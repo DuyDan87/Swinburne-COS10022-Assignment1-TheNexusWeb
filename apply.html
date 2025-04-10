@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -139,4 +140,147 @@
         <p>&copy;<a href="https://nexuswebs.atlassian.net/jira/software/projects/SCRUM/boards/1" target="Our Jira Project" class="footer-link">2025 Nexus. All rights reserved.</a> &nbsp; | &nbsp; <a href="mailto:nexusweb4321@gmail.com" class="footer-link">Contact Us</a></p>
     </footer>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--The logo was created on design.com https://www.design.com/maker/logo/elegant-rectangle-letter-n-576322?text=Nexus&isVariation=True&searchImpressionId=e57eb4fd-9f14-4905-9944-216dc884006b -->
+    <title>Apply for a Job at Nexus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.png" type="image/png" class="bgimg">
+</head>
+<body class="form_body">
+    <header>
+        <img src="images/logo.png" alt="Nexus Logo" class="logo">
+        </a>
+        <h1>Apply for a job</h1>
+        <p>Join our team at Nexus</p>
+    </header>
+    <nav>
+        <def class="nav-link">
+            <ul>
+                <li><a href="index.html" class="nav-link"><strong>Home</strong></a></li>
+                <li><a href="jobs.html" class="nav-link"><strong>Job Opportunities</strong></a></li>
+                <li><a href="apply.html" class="nav-link"><strong>Apply Now</strong></a></li>
+                <li><a href="about.html" class="nav-link"><strong>About Us</strong></a></li>
+            </ul>
+        </def>
+    </nav>
+    <main class="form">
+        <section>
+            <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post" target="_blank">
+                <h2>Job Application Form</h2>
+                <!-- Job Reference Number -->
+                <label for="job-ref">Job Reference Number:</label>
+                <select id="job-ref" name="job-ref" required>
+                    <option value="">Please Select</option>
+                    <option value="FSD01">FSD01 - Full Stack Developer</option>
+                    <option value="CSA02">DTA02 - Data Analyst</option>
+                </select><br><br>
+
+                <!-- First Name -->
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" maxlength="20" pattern="^[A-Za-z]{1,20}$" required><br><br>
+
+                <!-- Last Name -->
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" maxlength="20" pattern="^[A-Za-z]{1,20}$" required><br><br>
+
+                <!-- Date of Birth -->
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <!-- Gender -->
+                <fieldset class="gender">
+                    <legend>Gender:</legend>
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="otherg" name="gender" value="OtherG" required>
+                    <label for="other-gen">Other</label>
+                </fieldset><br>
+
+                <!-- Street Address -->
+                <label for="address">Street Address:</label>
+                <input type="text" id="address" name="address" maxlength="40" pattern="^{1,40}$" required><br><br>
+
+                <!-- Suburb/Town -->
+                <label for="suburb">Suburb/Town:</label>
+                <input type="text" id="suburb" name="suburb" maxlength="40" pattern="^[A-Za-z]{1,40}$" required><br><br>
+
+                <!-- State -->
+                <label for="state">State:</label>
+                <select id="state" name="state" required>
+                    <option value="VIC">VIC</option>
+                    <option value="NSW">NSW</option>
+                    <option value="QLD">QLD</option>
+                    <option value="NT">NT</option>
+                    <option value="WA">WA</option>
+                    <option value="SA">SA</option>
+                    <option value="TAS">TAS</option>
+                    <option value="ACT">ACT</option>
+                </select><br><br>
+
+                <!-- Postcode -->
+                <label for="postcode">Postcode:</label>
+                <input type="text" id="postcode" name="postcode" pattern="^\d{4}$" required><br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br> <!--The pattern was from HTML validations patterns in week 03 -->
+
+                <!-- Phone Number -->
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" pattern="^[0-9 ]{8,12}$" required><br><br>
+
+                <!-- Required Technical Skills -->
+                <fieldset class="technical-skills">
+                    <legend>Required Technical Skills:</legend>
+                    <input type="checkbox" id="html" name="skills[]" value="HTML">
+                    <label for="html">HTML </label>
+                    <input type="checkbox" id="css" name="skills[]" value="CSS">
+                    <label for="css">CSS </label>
+                    <input type="checkbox" id="php" name="skills[]" value="PHP">
+                    <label for="php">PHP </label>
+                    <input type="checkbox" id="javascript" name="skills[]" value="JavaScript">
+                    <label for="javascript">JavaScript </label>
+                    <input type="checkbox" id="ruby" name="skills[]" value="Ruby">
+                    <label for="ruby">Ruby </label>
+                    <input type="checkbox" id="node" name="skills[]" value="Node.js">
+                    <label for="Node">Node.js </label>
+                    <input type="checkbox" id="mysql" name="skills[]" value="MySQL">
+                    <label for="mysql">MySQL </label>
+                    <input type="checkbox" id="mongo" name="skills[]" value="MongoDB">
+                    <label for="mongo">MongoDB </label>
+                    <input type="checkbox" id="python" name="skills[]" value="Python">
+                    <label for="python">Python </label>
+                    <input type="checkbox" id="others" name="skills[]" value="OtherS">
+                    <label for="other">Other </label>
+                </fieldset><br><br>
+
+                <!-- Other Skills -->
+                <label for="other-skills">Other Skills:</label>
+                <br>
+                <textarea id="other-skills" name="other-skills" rows="4" cols="50" placeholder="Write any additional skills that you have on this box...."></textarea><br><br>
+                <br>
+                <!--Upload CV PDF File-->
+                <label for="CV_upload">Upload Your CV Bellow (PDF only)</label>
+                <br>
+                <fieldset class="file">
+                <input type="file" id="cv" name="cv" accept=".pdf" required>
+                </fieldset>
+                <br><br><br><br>
+              
+                <!-- Submit Button -->
+                <input type="submit" class="submit-button">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<a href="https://nexuswebs.atlassian.net/jira/software/projects/SCRUM/boards/1" target="Our Jira Project" class="footer-link">2025 Nexus. All rights reserved.</a> &nbsp; | &nbsp; <a href="mailto:nexusweb4321@gmail.com" class="footer-link">Contact Us</a></p>
+    </footer>
+</body>
+>>>>>>> 7415d32db156b46c9b3cd6a6a2b8df67bae64207
 </html>
