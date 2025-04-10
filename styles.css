@@ -27,11 +27,6 @@
         font-size: 1rem; /* Adjust paragraph font size */
     }
 
-    .maps {
-        width: 100%; /* Make map responsive */
-        height: auto; /* Maintain aspect ratio */
-    }
-    
     /* Adjust logo size */
     .logo {
         width: 50px; /* Reduce logo size for mobile */
@@ -40,17 +35,25 @@
         left: 5%; /* Adjust position */
     }
 
-    /* Adjust navigation links */
-    nav .nav-link a {
-        font-size: 1rem; /* Reduce font size for nav links */
-        padding: 5px 1rem; /* Adjust padding for smaller screens */
+    /* Ensure navigation links stay in a row */
+    nav .nav-link ul {
+        display: flex; /* Use flexbox for layout */
+        flex-direction: row; /* Keep items in a row */
+        justify-content: center; /* Center the links horizontally */
+        align-items: center; /* Align items vertically */
+        padding: 5px; /* Remove extra padding */
+        margin: 0; /* Remove extra margin */
+        list-style: none; /* Remove default list styling */
     }
 
-    /* Stack navigation links vertically */
-    nav .nav-link ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    nav .nav-link li {
+        display: inline-block; /* Ensure list items remain inline */
+        margin: 0 10px; /* Add spacing between links */
+    }
+
+    nav .nav-link a {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        padding: 5px 10px; /* Adjust padding for better spacing */
     }
 
     /* Adjust main content margins */
@@ -73,7 +76,7 @@
 
     /* Adjust footer text size */
     footer {
-        font-size: 0.9rem;
+        font-size: 0.9rem; /* Reduce footer font size */
     }
 
     /* Adjust project list layout */
@@ -172,7 +175,7 @@ header h1 {
 }
 
 footer {
-    font-size: 1rem; /* Sets the font size of the footer text */
+    font-size: 0.9rem; /* Sets the font size of the footer text */
     font-weight: bold; /* Makes the footer text bold */
     background-color: #014a66; /* Sets the background color of the footer */
     color: #C39131; /* Sets the text color to white */
